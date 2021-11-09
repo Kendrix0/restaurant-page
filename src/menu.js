@@ -49,7 +49,7 @@ function createMenuItem(name, image, description, price, color) {
 
 function loadMenu() {
     content.innerHTML = '';
-
+    menu.innerHTML = '';
     createMenuItem('Bitcoin Brownie', bitcoinIcon, 'Only the edge pieces! Most decentralized.', '$100k', 'warning');
     createMenuItem('Ethereum Eclaire', ethereumIcon, 'Most popular alt-cookie! Expensive delivery.', '$5k', 'primary');
     createMenuItem('Monero Macaron', moneroIcon, 'Nobody will know you broke your diet!', '$100.00', 'dark');
